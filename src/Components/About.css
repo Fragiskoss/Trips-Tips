@@ -1,0 +1,29 @@
+.about-page {
+  padding: 20px;
+  line-height: 1.6;
+  font-family: Verdana;
+}
+
+.story {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.donate-button {
+  text-align: center; /* Center the donation button */
+}
+
+.donate-button button {
+  background-color: #54BAB9; /* Buy Me a Coffee brand color */
+  color: #F7ECDE;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 26px;
+   font-family: Verdana;
+}
+
+.donate-button button:hover {
+  background-color: #54bab8df; /* Darker shade for hover effect */
+}

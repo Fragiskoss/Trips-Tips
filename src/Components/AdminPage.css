@@ -1,0 +1,69 @@
+.AdminLogin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  font-family: Verdana;
+}
+
+.AdminLogin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px; 
+}
+
+.AdminInput-field {
+  font-size: 16px; 
+  padding: 8px;
+  margin: 10px 0; 
+  width: 100%; 
+  box-sizing: border-box; 
+  font-family: Verdana;
+}
+
+.AdminInput-field::placeholder {
+  font-size: 14px; 
+  color: #999; 
+}
+
+.submit-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #54BAB9;
+  color: #F7ECDE;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-family: Verdana;
+  
+}
+
+.submit-btn:hover {
+  background-color: #54bab8df; 
+}
+
+.logout-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #ba5454;
+  color: #F7ECDE;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-family: Verdana;  
+}
+
+.logout-btn:hover {
+  background-color: #ba5454df;
+}
+
+
+
+
+
+
+.admin-dashboard {
+font-family: Verdana;
+}

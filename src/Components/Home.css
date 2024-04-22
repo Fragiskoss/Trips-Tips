@@ -1,0 +1,76 @@
+.home-container {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.hero-section {
+    background-image: url('./Photos/image1.gif');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FBF8F1;
+    padding: 0 20px;
+    border-radius: 3px;
+}
+.newsletter-signup {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 8px;
+    max-width: 500px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.newsletter-signup input[type="email"] {
+    width: calc(100% - 22px);
+    max-width: 300px; 
+    margin-bottom: 10px; 
+}
+
+.newsletter-signup button {
+    background-color: #54BAB9; 
+    color: #F7ECDE;
+    border: none;
+    padding: 8px 16px; 
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+     font-family: Verdana;
+}
+
+.newsletter-signup button:hover {
+    background-color: #54bab8df 
+}
+
+
+@media (min-width: 358px) {
+    .newsletter-signup input[type="email"],
+    .newsletter-signup button {
+        width: auto; 
+        margin-bottom: 0; 
+  
+    }
+    .newsletter-signup input[type="email"] {
+        margin-right: 10px; 
+    }
+}
+
+.popup-message {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FBF8F1;
+    color: #54BAB9;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000; 
+}
